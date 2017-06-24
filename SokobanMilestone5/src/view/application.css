@@ -1,0 +1,74 @@
+.header
+{
+	-fx-background-image: url("../../resources/Images/background.jpg");
+  	-fx-background-repeat:repeat;  
+    -fx-background-size: auto;
+    -fx-background-position: center;
+    -fx-background-color: white ;
+    -fx-font-family: Segoe UI Bold;
+}
+
+.menu
+{	-fx-background-image: url("../../resources/Images/pacban2.jpg");
+	-fx-background-repeat: no-repeat ;
+	-fx-background-size: 10%;
+	-fx-background-position: top ;
+	-fx-background-color: yellow ;
+}
+
+.vbox
+{
+	-fx-text-fill: black;
+	-fx-background-color: white ;
+	-fx-animated: false  ;
+	-fx-background-image: url("../../resources/Images/1.gif") ;
+	-fx-background-repeat:no-repeat ; 
+	-fx-background-position: bottom ;
+	-fx-background-fills: transparent ;
+}
+
+.statusLabel
+{
+
+	-fx-font-size: 22;
+	-fx-font-style: normal;
+	-fx-text-fill: red  ;
+	-fx-text-alignment: right ;
+	-fx-font-weight: bold;
+}
+
+.sokoban
+{
+	-fx-animated: true;
+}
+
+.music
+{
+	-fx-background-fills: transparent ;
+	-fx-background-position: bottom ; 
+	-fx-background-size: 105%;
+	-fx-background-color: yellow ;
+	-fx-border-radius: 12px;
+}
+
+.exit
+{
+	-fx-border-radius: 12px;
+	-fx-background-color: #f44336;
+}
+
+.scores
+{
+	-fx-border-radius: 12px;
+	-fx-background-color: #0033cc;
+}
+
+.userField
+{
+	-fx-background-color: #2200ff;
+}
+
+.levelField
+{
+	-fx-background-color: #00b7ff;
+}

@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.factories.LevelsExtensionFactory.TextLevelCreator" project="Milestone3" 
+    file="/Milestone3/src/model/factories/LevelsExtensionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="215" x="4585" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.factories.LevelsExtensionFactory" project="Milestone3" 
+    file="/Milestone3/src/model/factories/LevelsExtensionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="249" x="5156" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="view.Main" project="Milestone3" file="/Milestone3/src/view/Main.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="130" x="473" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="model.data.items.UnmovableFactory.WallCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/UnmovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="200" x="3805" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="view.TableRow" project="Milestone3" file="/Milestone3/src/view/TableRow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="286" width="726" x="8365" y="2191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="controller.commands.ExitCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/ExitCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="287" x="3478" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="model.data.items.iUnmoveable" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/iUnmoveable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="70" width="120" x="6691" y="2191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="model.data.items.UnmovableFactory.FloorCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/UnmovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="200" x="4045" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="controller.commands.AddRecordCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/AddRecordCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="195" x="373" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="model.data.items.Player" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="159" x="6010" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="model.data.items.Wall" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/Wall.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="159" x="6884" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="controller.commands.Command" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/Command.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="141" width="157" x="1779" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="controller.commands.ShowDBRecordCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/ShowDBRecordCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="257" x="2144" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="model.data.items.MovableFactory.BoxCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/MovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="184" x="7917" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="model.data.items.Target" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/Target.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="159" x="6685" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="view.MainWindowController" project="Milestone3" 
+    file="/Milestone3/src/view/MainWindowController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="826" width="326" x="8407" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="model.data.items.UnmovableFactory.FactoryCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/UnmovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="200" x="4345" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="commons.Record" project="Milestone3" file="/Milestone3/src/commons/Record.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="394" width="203" x="4567" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="controller.commands.ErrorCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/ErrorCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="283" x="2733" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="model.data.levels.MyTextLevel" project="Milestone3" 
+    file="/Milestone3/src/model/data/levels/MyTextLevel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="231" x="7083" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="controller.commands.QueryCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/QueryCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="166" x="608" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="model.iModel" project="Milestone3" file="/Milestone3/src/model/iModel.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="238" x="1701" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="model.data.levels.MyXMLLevel" project="Milestone3" 
+    file="/Milestone3/src/model/data/levels/MyXMLLevel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="231" x="7375" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="model.factories.LevelsExtensionFactory.Creator" project="Milestone3" 
+    file="/Milestone3/src/model/factories/LevelsExtensionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="215" x="5331" y="2191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="controller.commands.AddUserCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/AddUserCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="181" x="814" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="controller.commands.SaveLevelCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/SaveLevelCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="188" x="1035" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="model.data.levels.CommonLevelLoader" project="Milestone3" 
+    file="/Milestone3/src/model/data/levels/CommonLevelLoader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="141" width="331" x="7335" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="28" language="java" name="model.data.items.MovableFactory.FactoryCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/MovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="184" x="8141" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="29" language="java" name="model.data.items.Position" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/Position.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="286" width="222" x="6337" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="model.policy.MySokobanPolicy" project="Milestone3" 
+    file="/Milestone3/src/model/policy/MySokobanPolicy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="394" width="365" x="5445" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="model.data.items.UnmovableFactory" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/UnmovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="287" x="4483" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="controller.server.MyServer" project="Milestone3" 
+    file="/Milestone3/src/controller/server/MyServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="186" x="3077" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="33" language="java" name="model.db.iDBManager" project="Milestone3" 
+    file="/Milestone3/src/model/db/iDBManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="120" x="5850" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="34" language="java" name="commons.Level" project="Milestone3" file="/Milestone3/src/commons/Level.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="916" width="287" x="6010" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="controller.CommandController" project="Milestone3" 
+    file="/Milestone3/src/controller/CommandController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="341" x="3324" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="model.factories.LevelsExtensionFactory.XMLLevelCreator" project="Milestone3" 
+    file="/Milestone3/src/model/factories/LevelsExtensionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="215" x="4840" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="model.db.User" project="Milestone3" file="/Milestone3/src/model/db/User.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="180" x="6010" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="controller.commands.LoadLevelCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/LoadLevelCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="188" x="1263" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="model.data.levels.MyObjectLevel" project="Milestone3" 
+    file="/Milestone3/src/model/data/levels/MyObjectLevel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="231" x="7646" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="model.factories.LevelsExtensionFactory.ObjLevelCreator" project="Milestone3" 
+    file="/Milestone3/src/model/factories/LevelsExtensionFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="215" x="5095" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="model.data.items.Box" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/Box.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="203" x="6209" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="model.data.items.MovableFactory.PlayerCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/MovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="184" x="8141" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="model.data.items.UnmovableFactory.TargetCreator" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/UnmovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="200" x="4285" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="controller.server.SokobanClientHandler" project="Milestone3" 
+    file="/Milestone3/src/controller/server/SokobanClientHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="304" x="2433" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="model.MyModel" project="Milestone3" file="/Milestone3/src/model/MyModel.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="340" width="303" x="4810" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="controller.commands.DisplayGUICommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/DisplayGUICommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="231" x="2441" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="47" language="java" name="controller.server.iClientHandler" project="Milestone3" 
+    file="/Milestone3/src/controller/server/iClientHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="286" x="2755" y="2191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="48" language="java" name="model.db.QueryParameters" project="Milestone3" 
+    file="/Milestone3/src/model/db/QueryParameters.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="268" width="246" x="744" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="controller.commands.DisplayCLICommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/DisplayCLICommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="325" x="1779" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="50" language="java" name="view.iView" project="Milestone3" file="/Milestone3/src/view/iView.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="196" width="239" x="2777" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="51" language="java" name="model.db.AbstractDBManager" project="Milestone3" 
+    file="/Milestone3/src/model/db/AbstractDBManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="105" width="167" x="5803" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="model.db.MiniMain" project="Milestone3" 
+    file="/Milestone3/src/model/db/MiniMain.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="130" x="1132" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="53" language="java" name="model.policy.iSokobanPolicy" project="Milestone3" 
+    file="/Milestone3/src/model/policy/iSokobanPolicy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="180" x="5445" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="54" language="java" name="model.data.items.CommonItems" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/CommonItems.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="213" width="194" x="6601" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="55" language="java" name="model.data.items.iMoveable" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/iMoveable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="137" x="6010" y="2191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="56" language="java" name="view.UserAccountController" project="Milestone3" 
+    file="/Milestone3/src/view/UserAccountController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="231" x="1405" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="controller.commands.MoveCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/MoveCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="248" x="1491" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="model.data.items.Floor" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/Floor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="159" x="6685" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="59" language="java" name="model.data.levels.iLevelLoader" project="Milestone3" 
+    file="/Milestone3/src/model/data/levels/iLevelLoader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="231" x="7335" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="60" language="java" name="model.db.SokobanDBManager" project="Milestone3" 
+    file="/Milestone3/src/model/db/SokobanDBManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="296" x="4810" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="view.RecordViewController" project="Milestone3" 
+    file="/Milestone3/src/view/RecordViewController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="592" width="289" x="8365" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="controller.SokobanController" project="Milestone3" 
+    file="/Milestone3/src/controller/SokobanController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="232" width="361" x="3077" y="495"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="63" language="java" name="controller.commands.iCommand" project="Milestone3" 
+    file="/Milestone3/src/controller/commands/iCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="157" x="3284" y="2191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="64" language="java" name="model.data.items.MovableFactory" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/MovableFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="255" x="8346" y="115"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="65" language="java" name="model.data.items.iGeneralItem" project="Milestone3" 
+    file="/Milestone3/src/model/data/items/iGeneralItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="172" x="6473" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="66" language="java" name="view.KeySettings" project="Milestone3" 
+    file="/Milestone3/src/view/KeySettings.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="193" x="8694" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="view.SokobanDisplayer" project="Milestone3" 
+    file="/Milestone3/src/view/SokobanDisplayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="700" width="239" x="8927" y="1451"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="68">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="47"/>  
+  </realization>  
+  <nesting id="69">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="40"/>  
+  </nesting>  
+  <realization id="70">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="27"/>  
+  </generalization>  
+  <association id="72">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="73" name="model"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="76" name="controller"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="79" name="model"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="82" name="view"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="84">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <nesting id="85">    
+    <bendpoint x="5361" y="1451"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="24"/>  
+  </nesting>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="87">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="88" name="levels"/>      
+      <multiplicity id="89" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="90">    
+    <bendpoint x="4515" y="495"/>    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="91">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="92" name="recordsList"/>      
+      <multiplicity id="93" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="94">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="50"/>  
+  </realization>  
+  <association id="95">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="96" name="model"/>      
+      <multiplicity id="97" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <bendpoint x="4536" y="495"/>    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="99" name="hashMap"/>      
+      <multiplicity id="100" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="102" name="manager"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="104">    
+    <bendpoint x="6631" y="495"/>    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="65"/>  
+  </realization>  
+  <nesting id="105">    
+    <bendpoint x="8355" y="495"/>    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="28"/>  
+  </nesting>  
+  <association id="106">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="107" name="commandQueue"/>      
+      <multiplicity id="108" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="109">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="65"/>  
+  </generalization>  
+  <association id="110">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="111" name="model"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <bendpoint x="8376" y="495"/>    
+    <end type="SOURCE" refId="64" navigable="false">      
+      <attribute id="114" name="hashMap"/>      
+      <multiplicity id="115" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="117" name="controller"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="119">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="121">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="122" name="recordController"/>      
+      <multiplicity id="123" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="61" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="124">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="33"/>  
+  </realization>  
+  <nesting id="125">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="36"/>  
+  </nesting>  
+  <association id="126">    
+    <bendpoint x="3293" y="1451"/>    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="127" name="commands"/>      
+      <multiplicity id="128" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="129">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="43"/>  
+  </nesting>  
+  <association id="130">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="131" name="clientHandler"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="133">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="134">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="135" name="model"/>      
+      <multiplicity id="136" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="137">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <generalization id="138">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="139">    
+    <bendpoint x="5340" y="1451"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="140" name="hashMap"/>      
+      <multiplicity id="141" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="143" name="policy"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="145">    
+    <bendpoint x="2702" y="495"/>    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="22"/>  
+  </realization>  
+  <association id="146">    
+    <bendpoint x="6442" y="1451"/>    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="147" name="board"/>      
+      <multiplicity id="148" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="149">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="150">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="151" name="players"/>      
+      <multiplicity id="152" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="153">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <realization id="154">    
+    <bendpoint x="3046" y="495"/>    
+    <bendpoint x="3046" y="1451"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="63"/>  
+  </realization>  
+  <realization id="155">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="53"/>  
+  </realization>  
+  <association id="156">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="157" name="view"/>      
+      <multiplicity id="158" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="159">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="160">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="161">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="162" name="theServer"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="164">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="58"/>  
+  </generalization>  
+  <association id="165">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="166" name="model"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="168">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <generalization id="169">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <association id="170">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="171" name="model"/>      
+      <multiplicity id="172" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="173">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <realization id="174">    
+    <bendpoint x="7344" y="495"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="59"/>  
+  </realization>  
+  <association id="175">    
+    <end type="SOURCE" refId="60" navigable="false">      
+      <attribute id="176" name="instance"/>      
+      <multiplicity id="177" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="60" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="178">    
+    <bendpoint x="6874" y="1451"/>    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="179">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="180" name="theServer"/>      
+      <multiplicity id="181" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="182">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="183" name="clientHandler"/>      
+      <multiplicity id="184" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="185">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <realization id="186">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <realization id="187">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="59"/>  
+  </realization>  
+  <realization id="188">    
+    <bendpoint x="6895" y="1451"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="189">    
+    <bendpoint x="5979" y="1451"/>    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="190" name="itemsOnBoard"/>      
+      <multiplicity id="191" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="55" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="192">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="193" name="targets"/>      
+      <multiplicity id="194" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="195">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="196" name="model"/>      
+      <multiplicity id="197" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="198">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="55"/>  
+  </realization>  
+  <realization id="199">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <nesting id="200">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="42"/>  
+  </nesting>  
+  <realization id="201">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="202">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <generalization id="203">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="204">    
+    <bendpoint x="6610" y="495"/>    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <association id="205">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="206" name="users"/>      
+      <multiplicity id="207" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="208">    
+    <end type="SOURCE" refId="49" navigable="false">      
+      <attribute id="209" name="clientHandler"/>      
+      <multiplicity id="210" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="211">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="212" name="boxes"/>      
+      <multiplicity id="213" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="214">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="215" name="theLevel"/>      
+      <multiplicity id="216" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="217">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="218" name="model"/>      
+      <multiplicity id="219" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="220">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="28"/>  
+  </realization>  
+  <association id="221">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="222" name="keySettings"/>      
+      <multiplicity id="223" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="66" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="224">    
+    <end type="SOURCE" refId="62" navigable="false">      
+      <attribute id="225" name="view"/>      
+      <multiplicity id="226" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="227">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="228" name="sokobanDisplayer"/>      
+      <multiplicity id="229" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="67" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="230">    
+    <end type="SOURCE" refId="54" navigable="false">      
+      <attribute id="231" name="position"/>      
+      <multiplicity id="232" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="233">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="234" name="levelExtension"/>      
+      <multiplicity id="235" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="236">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="237" name="view"/>      
+      <multiplicity id="238" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="239">    
+    <bendpoint x="6589" y="495"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="54"/>  
+  </generalization>  
+  <generalization id="240">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="65"/>  
+  </generalization>  
+  <generalization id="241">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="242">    
+    <end type="SOURCE" refId="61" navigable="false">      
+      <attribute id="243" name="rows"/>      
+      <multiplicity id="244" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="245">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="59"/>  
+  </realization>  
+  <association id="246">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="247" name="model"/>      
+      <multiplicity id="248" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="249">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <association id="250">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="251" name="clientHandler"/>      
+      <multiplicity id="252" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="253">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="59"/>  
+  </realization>  
+  <generalization id="254">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <nesting id="255">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <nesting id="256">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
