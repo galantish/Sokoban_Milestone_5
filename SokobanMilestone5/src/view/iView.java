@@ -1,9 +1,8 @@
 package view;
 
 import java.util.List;
-
-import commons.Level;
-import commons.Record;
+import db.Level;
+import db.Record;
 import javafx.beans.property.StringProperty;
 import javafx.stage.Stage;
 

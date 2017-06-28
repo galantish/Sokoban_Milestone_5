@@ -9,16 +9,8 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.util.ArrayList;
-
-import commons.Level;
-import model.data.items.Box;
-import model.data.items.MovableFactory;
-import model.data.items.Player;
-import model.data.items.Position;
-import model.data.items.Target;
-import model.data.items.UnmovableFactory;
-import model.data.items.iMoveable;
-import model.data.items.iUnmoveable;
+import db.Level;
+import items.*;
 
 /**
 * The Class MyTextLevelLoader - The class that load and save a text file.

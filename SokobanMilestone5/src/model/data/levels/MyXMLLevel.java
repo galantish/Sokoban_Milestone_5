@@ -7,8 +7,7 @@ import java.io.BufferedOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
-import commons.Level;
+import db.Level;
 
 /**
 * The Class MyXMLLevelLoader - The class that load and save an XML file.

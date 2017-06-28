@@ -1,6 +1,6 @@
 package model.policy;
 
-import commons.Level;
+import db.Level;
 
 /*
  * iSokobanPolicy - an interface that holds all the functions that a policy of a game (SOKOABN) should implement.

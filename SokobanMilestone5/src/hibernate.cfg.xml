@@ -13,9 +13,9 @@
 		</property>
 		<!-- Echo all executed SQL to stdout -->
 		<property name="show_sql">true</property>
-		<mapping class="commons.Record"></mapping>
-		<mapping class="model.db.User"></mapping>
-		<mapping class="commons.Level"></mapping>
+		<mapping class="db.Record"></mapping>
+		<mapping class="db.User"></mapping>
+		<mapping class="db.Level"></mapping>
 
 	</session-factory>
 </hibernate-configuration>

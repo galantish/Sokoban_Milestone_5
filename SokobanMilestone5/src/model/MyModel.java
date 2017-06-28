@@ -5,15 +5,20 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
-import commons.Level;
-import commons.Record;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import commands.Commands;
+import db.CompressedLevel;
+import db.Level;
+import db.QueryParameters;
+import db.Record;
 import model.data.levels.iLevelLoader;
-import model.db.QueryParameters;
-import model.db.SokobanDBManager;
-import model.db.User;
+import db.User;
 import model.factories.LevelsExtensionFactory;
 import model.policy.MySokobanPolicy;
 
@@ -26,14 +31,21 @@ public class MyModel extends Observable implements iModel
 	private MySokobanPolicy policy;
 	private LevelsExtensionFactory levelExtension;
 	private List<Record> recordsList;
-	private SokobanDBManager manager;
+	private String serverIp;
+	private int serverPort;
+	private Gson json;
+	private ModelClient modelClient;
 	
-	public MyModel() 
+	public MyModel(String serverIp, int serverPort) 
 	{
 		this.theLevel = new Level();
 		this.levelExtension = new LevelsExtensionFactory();
 		this.policy = new MySokobanPolicy();
-		this.manager = SokobanDBManager.getInstance();
+		this.serverIp = serverIp;
+		this.serverPort = serverPort;
+		GsonBuilder builder = new GsonBuilder();
+		this.json = builder.create();
+		this.modelClient = new ModelClient(this.serverIp, this.serverPort);
 	}
 
 	@Override
@@ -59,8 +71,14 @@ public class MyModel extends Observable implements iModel
 					setChanged();
 					notifyObservers("change");
 					
-					if(!manager.isExistLevel(theLevel.getLevelID()))
-						manager.add(theLevel);
+					Commands command = Commands.ADD_LEVEL;
+					
+					CompressedLevel compLevel = new CompressedLevel(theLevel.getLevelID(), theLevel.getLevelBoard());
+					
+					String levelJson = json.toJson(compLevel);
+					
+					modelClient.createServerSession(command, levelJson);
+					
 				} 
 				catch (FileNotFoundException e) 
 				{
@@ -235,29 +253,29 @@ public class MyModel extends Observable implements iModel
 	public void createQuery(String params) 
 	{
 		String[] queryParams = params.split(" ");
-
 		QueryParameters q = new QueryParameters(queryParams[0], queryParams[1], queryParams[2]);
+		
+		String queryJson = this.json.toJson(q);
+		Commands command = Commands.DB_QUERY;
+		
+		String result = this.modelClient.createServerSession(command, queryJson);
+		
+		Type type = new TypeToken<List<Record>>(){}.getType();
+		this.recordsList = this.json.fromJson(result, type);
 
-		Thread t = new Thread(new Runnable() 
-		{
-			@Override
-			public void run() 
-			{
-				recordsList = manager.recordsQuery(q);
-				setChanged();
-				notifyObservers("showdbresults");
-			}
-		});
-		
-		t.start();
-		
+		setChanged();
+		notifyObservers("showdbresults");
 	}
 
 	@Override
 	public void addUserToDB(String userName) 
 	{
-		if(!manager.isExistUser(userName))
-			manager.add(new User(userName));
+		String s[] = userName.split(" ");
+		User user = new User(s[0]);
+		Commands command = Commands.ADD_USER;
+		String userJson = this.json.toJson(user);
+		
+		this.modelClient.createServerSession(command, userJson);
 	}
 
 	@Override
@@ -265,7 +283,11 @@ public class MyModel extends Observable implements iModel
 	{
 		String s[] = params.split(" ");
 		Record record = new Record(theLevel.getLevelID(), s[0], theLevel.getPlayersSteps(), s[1]);
-		System.out.println(theLevel.getLevelID() + " " + s[0] + " " + theLevel.getPlayersSteps() + " " + s[1]);
-		manager.add(record);
+		
+		Commands command = Commands.ADD_RECORD;
+		String recordJson = this.json.toJson(record);
+		
+		this.modelClient.createServerSession(command, recordJson);
+		
 	}
 }

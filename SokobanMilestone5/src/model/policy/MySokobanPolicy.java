@@ -1,20 +1,13 @@
 package model.policy;
 
 import java.io.Serializable;
-
-import commons.Level;
-import model.data.items.Box;
-import model.data.items.Floor;
-import model.data.items.Player;
-import model.data.items.Position;
-import model.data.items.Target;
-import model.data.items.Wall;
-import model.data.items.iGeneralItem;
-import model.data.items.iMoveable;
+import db.Level;
+import items.*;
 
 /**
  * The Class MySokobanPolicy - defines the policy of SOKOBAN game.
  */
+@SuppressWarnings("serial")
 public class MySokobanPolicy implements Serializable, iSokobanPolicy
 {
 	private boolean isPlayerCanWalkOnWall;

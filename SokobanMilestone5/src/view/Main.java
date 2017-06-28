@@ -20,10 +20,13 @@ public class Main extends Application
 	{
 		try 
 		{
+			int serverPort = 7580;
+			String serverIp = "127.0.0.1";
+			
 			FXMLLoader mainLoader = new FXMLLoader(getClass().getResource("MainWindow.fxml"));				 
 			BorderPane root = (BorderPane) mainLoader.load();
 			MainWindowController view = mainLoader.getController();
-			MyModel model = new MyModel();
+			MyModel model = new MyModel(serverIp, serverPort);
 			
 			SokobanController sokobanController;
 			

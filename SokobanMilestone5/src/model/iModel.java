@@ -1,9 +1,8 @@
 package model;
 
 import java.util.List;
-
-import commons.Level;
-import commons.Record;
+import db.Level;
+import db.Record;
 
 /**
  * IModel - an interface that holds all the function that a model should implement.

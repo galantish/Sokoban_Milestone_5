@@ -2,7 +2,7 @@ package view;
 
 import java.util.List;
 import java.util.Observable;
-import commons.Record;
+import db.Record;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
