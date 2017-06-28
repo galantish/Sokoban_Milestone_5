@@ -47,19 +47,37 @@
 	-fx-background-fills: transparent ;
 	-fx-background-position: bottom ; 
 	-fx-background-size: 105%;
-	-fx-background-color: yellow ;
+	-fx-background-color: #808080 ;
 	-fx-border-radius: 12px;
+}
+
+.clue
+{
+	-fx-border-radius: 10px;
+	-fx-background-color: #FFD700;
+}
+
+.solve
+{
+	-fx-border-radius: 10px;
+	-fx-background-color: #FF8C00;
+}
+
+.restart
+{
+	-fx-border-radius: 10px;
+	-fx-background-color: #FF4500;
 }
 
 .exit
 {
-	-fx-border-radius: 12px;
-	-fx-background-color: #f44336;
+	-fx-border-radius: 10px;
+	-fx-background-color: #FF0000;
 }
 
 .scores
 {
-	-fx-border-radius: 12px;
+	-fx-border-radius: 10px;
 	-fx-background-color: #0033cc;
 }
 

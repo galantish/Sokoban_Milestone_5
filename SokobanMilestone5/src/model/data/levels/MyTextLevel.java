@@ -86,6 +86,9 @@ public class MyTextLevel extends CommonLevelLoader implements iLevelLoader
 					}
 			}
 		}			
+		
+		myLevel.setStartBoard(myLevel.getLevelBoard());
+		
 		return myLevel;
 	}
 	

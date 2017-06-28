@@ -13,8 +13,10 @@ import controller.commands.ExitCommand;
 import controller.commands.LoadLevelCommand;
 import controller.commands.MoveCommand;
 import controller.commands.QueryCommand;
+import controller.commands.RestartCommand;
 import controller.commands.SaveLevelCommand;
 import controller.commands.ShowDBRecordCommand;
+import controller.commands.SolveLevel;
 import controller.commands.iCommand;
 import controller.server.MyServer;
 import controller.server.SokobanClientHandler;
@@ -84,7 +86,8 @@ public class SokobanController implements Observer
 		this.commands.put("showdbresults", new ShowDBRecordCommand(this.model, this.view));
 		this.commands.put("adduser", new AddUserCommand(this.model));
 		this.commands.put("addrecord", new AddRecordCommand(this.model));
-
+		this.commands.put("restart", new RestartCommand(this.model));
+		this.commands.put("solve", new SolveLevel(this.model));
 	}
 	
 	/*

@@ -9,6 +9,8 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
+import java.util.Timer;
+import java.util.TimerTask;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -288,6 +290,100 @@ public class MyModel extends Observable implements iModel
 		String recordJson = this.json.toJson(record);
 		
 		this.modelClient.createServerSession(command, recordJson);
+	}
+
+	@Override
+	public void restart() 
+	{
+		CompressedLevel compLevel = new CompressedLevel(this.theLevel.getLevelID(), this.theLevel.getStartBoard());
+		Level newLevel = compLevel.deCompressedLevel();
 		
+		setTheLevel(newLevel);
+		
+		setChanged();
+		notifyObservers("change");
+	}
+
+	@Override
+	public void getClue() 
+	{
+		
+	}
+
+	@Override
+	public void getSolution() 
+	{
+		CompressedLevel compLevel = new CompressedLevel(this.theLevel.getLevelID(), this.theLevel.getStartBoard());
+		
+		Commands command = Commands.GET_SOLUTION;
+		String levelJson = this.json.toJson(compLevel);
+		
+		String solJson = this.modelClient.createServerSession(command, levelJson);
+		
+		String sol = this.json.fromJson(solJson, String.class);
+		
+		ArrayList<String> list = (ArrayList<String>) deCompressedSolution(sol);
+		
+		Timer timer = new Timer();
+		
+		try 
+		{
+			Thread.sleep(1000);
+		} 
+		catch (InterruptedException e) 
+		{
+			e.printStackTrace();
+		}
+		
+		timer.scheduleAtFixedRate(new TimerTask() 
+		{
+			@Override
+			public void run() 
+			{
+				if(!list.isEmpty())
+				{
+					setChanged();
+					notifyObservers(list.get(0).toLowerCase());
+					list.remove(0);
+				}
+			}
+		}, 0, 200);
+		
+	}
+	
+	private List<String> deCompressedSolution(String sol)
+	{
+		List<String> list = new ArrayList<>();
+		
+		StringBuilder builder = new StringBuilder(sol);
+		char c;
+		
+		for(int i=0; i<sol.length(); i++)
+		{
+			c = builder.charAt(i);
+			switch (c) 
+			{
+				case 'r':
+					list.add("move right");
+					break;
+				
+				case 'l':
+					list.add("move left");
+					break;
+				
+				case 'u':
+					list.add("move up");
+					break;
+				
+				case 'd':
+					list.add("move down");
+					break;
+				
+				default:
+					break;
+			}
+		}
+		
+		return list;
 	}
 }

@@ -90,6 +90,9 @@ public class MainWindowController extends Observable implements iView, Initializ
 	//The level
 	private String theLevelID;
 	
+	//Solver
+	private boolean isSolvable;
+	
 	public MainWindowController() 
 	{
 		this.isFinish = false;
@@ -101,6 +104,7 @@ public class MainWindowController extends Observable implements iView, Initializ
 		this.isLoadFromGUI = false;
 		this.keySettings = initKeySetting("./resources/Settings/keySettings.xml");
 		this.theLevelID = "";
+		this.isSolvable = false;
 	}
 	
 	public void setRecordViewController(RecordViewController recordController)
@@ -161,6 +165,7 @@ public class MainWindowController extends Observable implements iView, Initializ
 					command = null;
 					displayError("Invalid key.");
 				}
+				
 				
 				if(command != null)
 				{
@@ -319,12 +324,15 @@ public class MainWindowController extends Observable implements iView, Initializ
 	
 	private void finishLevel()
 	{
-		if(this.isFinish == true)
+		if(this.isFinish == true || this.isSolvable == true)
+		{
+			stopTimer();
 			return;
+		}
 		
 		Platform.runLater(new Runnable() 
 		{
-			@Override
+			@Override 
 			public void run() 
 			{
 				Alert alert = new Alert(AlertType.CONFIRMATION);
@@ -524,6 +532,24 @@ public class MainWindowController extends Observable implements iView, Initializ
         });
 	}
 
+	public void restart()
+	{
+		this.isSolvable = false;
+		stopTimer();
+		startTimer(0, 0);
+		setChanged();
+		notifyObservers("restart");
+	}
+	
+	public void solveLevel()
+	{
+		this.isSolvable = true;
+		stopTimer();
+		startTimer(0, 0);
+		setChanged();
+		notifyObservers("solve");
+	}
+	
 	@Override
 	public void update(Observable o, Object arg) 
 	{

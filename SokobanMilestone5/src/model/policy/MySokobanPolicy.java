@@ -65,23 +65,10 @@ public class MySokobanPolicy implements Serializable, iSokobanPolicy
 		level.getItemsOnBoard()[newPos.getX()][newPos.getY()] = (Player) item;
 		((Player) item).Move(newPos);
 		level.getPlayers().get(0).setPosition(newPos);
-		
-		/*if(item instanceof Player)
-		{
-			level.getItemsOnBoard()[newPos.getX()][newPos.getY()] = (Player) item;
-			((Player) item).Move(newPos);
-			level.getPlayers().get(0).setPosition(newPos);
-		}
-		
-		else
-		{
-			level.getItemsOnBoard()[newPos.getX()][newPos.getY()] = (Box) item;
-			((Box) item).Move(newPos);
-		}*/
 	
 		level.getItemsOnBoard()[backupItemPos.getX()][backupItemPos.getY()] = null;
 		level.setPlayersSteps(level.getPlayersSteps() + 1);
-
+		System.out.println(level.getPlayersSteps());
 	}
 	
 	/*

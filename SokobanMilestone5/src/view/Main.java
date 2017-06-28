@@ -20,7 +20,7 @@ public class Main extends Application
 	{
 		try 
 		{
-			int serverPort = 7580;
+			int serverPort = 8998;
 			String serverIp = "127.0.0.1";
 			
 			FXMLLoader mainLoader = new FXMLLoader(getClass().getResource("MainWindow.fxml"));				 
@@ -50,7 +50,7 @@ public class Main extends Application
 			view.addObserver(sokobanController);	
 			view.setPrimaryStage(primaryStage);
 			
-			Scene sceneRoot = new Scene(root,1200,900);
+			Scene sceneRoot = new Scene(root,1100,800);
 			sceneRoot.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setTitle("Pac-Ban");
 			primaryStage.getIcons().add(new Image(new FileInputStream("./resources/Images/1.gif")));

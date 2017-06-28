@@ -18,4 +18,7 @@ public interface iModel
 	public void createQuery(String params);
 	public void addUserToDB(String userID);
 	public void addRecordToDB(String queryParams);
+	public void restart();
+	public void getClue();
+	public void getSolution();
 }
