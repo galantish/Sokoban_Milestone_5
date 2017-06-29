@@ -324,7 +324,7 @@ public class MainWindowController extends Observable implements iView, Initializ
 	
 	private void finishLevel()
 	{
-		if(this.isFinish == true || this.isSolvable == true)
+		if(this.isFinish == true && this.isSolvable == true)
 		{
 			stopTimer();
 			return;
@@ -335,6 +335,9 @@ public class MainWindowController extends Observable implements iView, Initializ
 			@Override 
 			public void run() 
 			{
+				isFinish = true;
+				isSolvable = true;
+				
 				Alert alert = new Alert(AlertType.CONFIRMATION);
 				alert.setTitle("Level complated");
 				alert.setHeaderText("Congratulations! You win!!");
@@ -344,8 +347,6 @@ public class MainWindowController extends Observable implements iView, Initializ
 				
 				if (firstResult.get() == ButtonType.OK)
 				{
-					isFinish = true;
-					
 					// Create the custom dialog
 					Dialog<Pair<String, String>> dialog = new Dialog<>();
 					dialog.setTitle("Account Dialog");
@@ -405,8 +406,7 @@ public class MainWindowController extends Observable implements iView, Initializ
 					});
 				}
 				
-				else
-					System.out.println("The user doesn't want to save his score!");
+				else {}
 			}
 		});
 		stopTimer();
@@ -535,19 +535,28 @@ public class MainWindowController extends Observable implements iView, Initializ
 	public void restart()
 	{
 		this.isSolvable = false;
+		this.isFinish = false;
 		stopTimer();
 		startTimer(0, 0);
 		setChanged();
 		notifyObservers("restart");
 	}
 	
+	public void getClue()
+	{
+		setChanged();
+		notifyObservers("clue");
+	}
+	
 	public void solveLevel()
 	{
-		this.isSolvable = true;
+		restart();
 		stopTimer();
 		startTimer(0, 0);
 		setChanged();
 		notifyObservers("solve");
+		this.isSolvable = true;
+		this.isFinish = true;
 	}
 	
 	@Override

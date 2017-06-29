@@ -73,7 +73,7 @@
                    <Insets bottom="10.0" left="28" right="10.0" top="0.0" />
                </VBox.margin>
             </Button>
-            <Button styleClass="clue" onAction="#exit" mnemonicParsing="false" prefHeight="35" prefWidth="100" text="Clue" textFill="BLACK">
+            <Button styleClass="clue" onAction="#getClue" mnemonicParsing="false" prefHeight="35" prefWidth="100" text="Clue" textFill="BLACK">
               	<font>
                    <Font name="Segoe UI Bold" size="13.0" />
                 </font>

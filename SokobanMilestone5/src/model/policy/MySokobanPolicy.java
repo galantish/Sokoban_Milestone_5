@@ -68,7 +68,6 @@ public class MySokobanPolicy implements Serializable, iSokobanPolicy
 	
 		level.getItemsOnBoard()[backupItemPos.getX()][backupItemPos.getY()] = null;
 		level.setPlayersSteps(level.getPlayersSteps() + 1);
-		System.out.println(level.getPlayersSteps());
 	}
 	
 	/*

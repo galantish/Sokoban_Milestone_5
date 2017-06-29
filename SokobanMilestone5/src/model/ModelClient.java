@@ -48,6 +48,7 @@ public class ModelClient
 			switch (command)
 			{
 				case DB_QUERY:
+				case GET_CLUE:
 				case GET_SOLUTION:
 					String getResult = in.readLine();
 					return getResult;

@@ -6,6 +6,7 @@ import java.util.Observer;
 
 import controller.commands.AddRecordCommand;
 import controller.commands.AddUserCommand;
+import controller.commands.ClueCommand;
 import controller.commands.DisplayCLICommand;
 import controller.commands.DisplayGUICommand;
 import controller.commands.ErrorCommand;
@@ -88,6 +89,7 @@ public class SokobanController implements Observer
 		this.commands.put("addrecord", new AddRecordCommand(this.model));
 		this.commands.put("restart", new RestartCommand(this.model));
 		this.commands.put("solve", new SolveLevel(this.model));
+		this.commands.put("clue", new ClueCommand(this.model));
 	}
 	
 	/*

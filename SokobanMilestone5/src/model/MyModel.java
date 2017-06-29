@@ -37,6 +37,8 @@ public class MyModel extends Observable implements iModel
 	private int serverPort;
 	private Gson json;
 	private ModelClient modelClient;
+	private List<String> clue;
+	private boolean isClueable;
 	
 	public MyModel(String serverIp, int serverPort) 
 	{
@@ -48,6 +50,8 @@ public class MyModel extends Observable implements iModel
 		GsonBuilder builder = new GsonBuilder();
 		this.json = builder.create();
 		this.modelClient = new ModelClient(this.serverIp, this.serverPort);
+		this.clue = new ArrayList<>();
+		this.isClueable = false;
 	}
 
 	@Override
@@ -73,6 +77,7 @@ public class MyModel extends Observable implements iModel
 					setChanged();
 					notifyObservers("change");
 					
+					isClueable=false;
 					Commands command = Commands.ADD_LEVEL;
 					
 					CompressedLevel compLevel = new CompressedLevel(theLevel.getLevelID(), theLevel.getLevelBoard());
@@ -186,13 +191,28 @@ public class MyModel extends Observable implements iModel
 
 			if(isCanMove == false)
 				return;
+			
+			if(!this.clue.isEmpty())
+			{
+				if(!(moveType.toLowerCase().equals(this.clue.get(0))))
+					this.isClueable = false;
+				
+				else
+				{	
+					this.clue.remove(0);
+					System.out.println("Helo");
+				}
+			}
+			
+			setChanged();
+			notifyObservers("change");
 		}
 		catch (Exception e)
 		{
 			System.out.println(e.getMessage());
 		}
-		setChanged();
-		notifyObservers("change");
+		
+
 	}
 	
 	/**
@@ -307,23 +327,45 @@ public class MyModel extends Observable implements iModel
 	@Override
 	public void getClue() 
 	{
+		if(!this.isClueable)
+		{
+			CompressedLevel compLevel = new CompressedLevel(this.theLevel.getLevelID(), this.theLevel.getLevelBoard());
+			Commands command = Commands.GET_CLUE;
+			String levelJson = this.json.toJson(compLevel);
+			String solJson = this.modelClient.createServerSession(command, levelJson);
+			String sol = this.json.fromJson(solJson, String.class);
+			
+			this.clue = deCompressedSolution(sol);
+			
+			if(!this.clue.isEmpty())
+			{
+				setChanged();
+				notifyObservers(this.clue.get(0));
+				this.clue.remove(0);
+				this.isClueable = true;
+			}
+		}
 		
+		else
+		{
+			if(!this.clue.isEmpty())
+			{
+				setChanged();
+				notifyObservers(this.clue.get(0));
+				this.clue.remove(0);
+			}
+		}
 	}
 
 	@Override
 	public void getSolution() 
 	{
 		CompressedLevel compLevel = new CompressedLevel(this.theLevel.getLevelID(), this.theLevel.getStartBoard());
-		
 		Commands command = Commands.GET_SOLUTION;
 		String levelJson = this.json.toJson(compLevel);
-		
 		String solJson = this.modelClient.createServerSession(command, levelJson);
-		
 		String sol = this.json.fromJson(solJson, String.class);
-		
-		ArrayList<String> list = (ArrayList<String>) deCompressedSolution(sol);
-		
+		List<String> list = deCompressedSolution(sol);
 		Timer timer = new Timer();
 		
 		try 
