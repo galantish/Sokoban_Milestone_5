@@ -24,7 +24,7 @@ public class UserAccountController implements Initializable
 		String id = userID.getText();
 		String name = username.getText();
 		String number = phone.getText();
-		System.out.println("USerID: " + id + "\nUserName: " + name + "\nPhoneNumber: " + number);
+		System.out.println("UserID: " + id + "\nUserName: " + name + "\nPhoneNumber: " + number);
 		
 		if(!id.equals(""))
 		{

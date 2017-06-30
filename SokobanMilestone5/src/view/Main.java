@@ -20,7 +20,7 @@ public class Main extends Application
 	{
 		try 
 		{
-			int serverPort = 9595;
+			int serverPort = 7423;
 			String serverIp = "127.0.0.1";
 			
 			FXMLLoader mainLoader = new FXMLLoader(getClass().getResource("MainWindow.fxml"));				 

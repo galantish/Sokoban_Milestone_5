@@ -51,13 +51,13 @@ public class MyModel extends Observable implements iModel
 		this.json = builder.create();
 		this.modelClient = new ModelClient(this.serverIp, this.serverPort);
 		this.clue = new ArrayList<>();
-		this.isClueable = false;
+		this.isClueable = false;  
 	}
-
+	
 	@Override
 	public void loadLevel(String path) 
 	{
-		Thread t = new Thread(new Runnable() 
+	    Thread t = new Thread(new Runnable() 
 		{		
 			@Override
 			public void run() 

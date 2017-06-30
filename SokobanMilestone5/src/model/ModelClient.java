@@ -38,6 +38,10 @@ public class ModelClient
 			out = new PrintWriter(theServer.getOutputStream());
 			in = new BufferedReader(new InputStreamReader(theServer.getInputStream()));
 			
+			String jsonId = this.json.toJson(command.toString());
+			out.println(jsonId);
+			out.flush();
+			
 			String comJson = this.json.toJson(command);
 			out.println(comJson);
 			out.flush();
